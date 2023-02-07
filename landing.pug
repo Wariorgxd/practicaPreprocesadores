@@ -1,0 +1,16 @@
+extends ./components/plantilla.pug
+block contenidos
+    section.intro
+        div.intro__imagen
+            img(src="./images/imagen.png", alt="No_image", srcset="")
+        div.intro__contenido
+            h2 #{titulos[0]}
+            p Do enim sunt culpa pariatur dolor laboris. Elit quis commodo nulla et laborum cupidatat in dolor cupidatat culpa. Irure eiusmod minim elit aute pariatur qui commodo sit laboris cillum esse aliquip Lorem duis. Magna quis proident laboris velit incididunt. Amet eiusmod officia excepteur dolor aute eu pariatur quis. Eiusmod qui eiusmod cupidatat velit veniam culpa. Quis reprehenderit dolore incididunt cupidatat sint.
+                span Consectetur enim anim fugiat proident fugiat dolore fugiat aliquip.
+            a(href="#").boton Leer más
+    //- ul
+    //-     each titulo in titulos
+    //-         li #{titulo}
+    main.contenido
+        each titulo in titulos
+            +caja("imagen.png", titulo, "Dolore deserunt tempor aliquip cillum ea anim do. Deserunt consectetur ad esse quis est nisi pariatur reprehenderit minim. Ea id ex officia sunt proident sit eiusmod ea pariatur minim non fugiat non. Dolor voluptate esse est officia amet qui.")

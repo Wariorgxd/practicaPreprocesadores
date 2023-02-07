@@ -1,0 +1,8 @@
+include configuraciones.pug
+
+footer
+    h2 #{tituloPrincipal}
+    ul
+        each elemento in enlaces
+            li
+                a(href="#") #{elemento}

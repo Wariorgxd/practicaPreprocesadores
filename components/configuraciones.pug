@@ -1,0 +1,13 @@
+-var tituloPrincipal = "PlatziGames"
+-var titulos = ["TITULO PRINCIPAL", "SUBTITULO 1", "SUBTITULO 2", "SUBTITULO 3"]
+-var usuario = "Sebastián"
+-var enlaces = ["Acerca", "Noticias", "Contacto"]
+
+mixin caja(img, titulo, contenido)
+    .caja
+        .caja__imagen
+            img(src="./images/" + img, alt="No_image", srcset="")
+        .caja__contenido
+            h3 #{titulo}
+            p #{contenido}
+            a(href="#").boton Leer más
