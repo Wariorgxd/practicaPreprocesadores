@@ -1,0 +1,23 @@
+// Archivo Pug
+doctype html
+html
+  head
+    title Barra lateral con Tailwind CSS y Pug
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css")
+  body
+    .flex.flex-col.h-screen
+      .w-64.bg-gray-900.h-full
+        .p-6
+          h1 Clases de Tailwind CSS en Pug
+          ul.mt-6
+            li
+              a(href="#") Inicio
+            li
+              a(href="#") Acerca de
+            li
+              a(href="#") Servicios
+            li
+              a(href="#") Contacto
+      .flex-1
+        .p-6
+          p Bienvenido a la barra lateral con Tailwind CSS y Pug.

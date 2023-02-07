@@ -125,3 +125,25 @@ footer li {
 	list-style: none;
 	margin: 0 20px;
 }
+
+.navbar {
+	position: absolute;
+	top: auto;
+	left: 0;
+	bottom: auto;
+	width: 200px;
+	background-color: #EEF1F7;
+	color: #333;
+	padding: 50px;
+}
+
+.navbar a {
+	color: #333;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.navbar a:hover {
+	background-color: #CED7E9;
+}

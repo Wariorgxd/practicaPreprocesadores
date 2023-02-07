@@ -10,21 +10,22 @@ html(lang="en")
         link(rel="stylesheet", href="../css/ejercicio-pug.css")
     body
         include ../components/header.pug
-        nav.intro
-            h3 menu
-            ul
-                each element in enlaces
-                    li
-                        a(href="#") #{element}
-        section
-            div.intro__contenido
-                h2 #{titulos[0]}
-                p.
-                    Duis ad commodo commodo magna ad nostrud ullamco eiusmod ut excepteur elit excepteur. Occaecat nulla Lorem qui consequat qui ex cillum ex nostrud. Laboris voluptate laboris irure et aliquip sint. Ipsum nulla et ea sint deserunt nisi nulla amet sit officia mollit. Consectetur ullamco officia dolor id esse ad esse eiusmod in irure eiusmod in anim tempor.
+        div
+            section
+                nav.navbar
+                    h3 menu
+                    ul
+                        each element in enlaces
+                            li
+                                a(href="#") #{element}
+                div.intro__contenido
+                    h2 #{titulos[0]}
+                    p.
+                        Duis ad commodo commodo magna ad nostrud ullamco eiusmod ut excepteur elit excepteur. Occaecat nulla Lorem qui consequat qui ex cillum ex nostrud. Laboris voluptate laboris irure et aliquip sint. Ipsum nulla et ea sint deserunt nisi nulla amet sit officia mollit. Consectetur ullamco officia dolor id esse ad esse eiusmod in irure eiusmod in anim tempor.
 
-                    Do non esse non eiusmod esse consectetur minim nisi fugiat. Consequat et ea elit laborum irure ut. Irure non quis anim occaecat eiusmod excepteur proident incididunt elit sit minim elit adipisicing. Do non nisi enim consectetur magna nulla occaecat tempor quis sunt laboris.
-                    Do non esse non eiusmod esse consectetur minim nisi fugiat. Consequat et ea elit laborum irure ut. Irure non quis anim occaecat eiusmod excepteur proident incididunt elit sit minim elit adipisicing. Do non nisi enim consectetur magna nulla occaecat tempor quis sunt laboris.
+                        Do non esse non eiusmod esse consectetur minim nisi fugiat. Consequat et ea elit laborum irure ut. Irure non quis anim occaecat eiusmod excepteur proident incididunt elit sit minim elit adipisicing. Do non nisi enim consectetur magna nulla occaecat tempor quis sunt laboris.
+                        Do non esse non eiusmod esse consectetur minim nisi fugiat. Consequat et ea elit laborum irure ut. Irure non quis anim occaecat eiusmod excepteur proident incididunt elit sit minim elit adipisicing. Do non nisi enim consectetur magna nulla occaecat tempor quis sunt laboris.
 
-                    Do non esse non eiusmod esse consectetur minim nisi fugiat. Consequat et ea elit laborum irure ut. Irure non quis anim occaecat eiusmod excepteur proident incididunt elit sit minim elit adipisicing. Do non nisi enim consectetur magna nulla occaecat tempor quis sunt laboris.
-                a(href="#").boton Ver mas
+                        Do non esse non eiusmod esse consectetur minim nisi fugiat. Consequat et ea elit laborum irure ut. Irure non quis anim occaecat eiusmod excepteur proident incididunt elit sit minim elit adipisicing. Do non nisi enim consectetur magna nulla occaecat tempor quis sunt laboris.
+                    a(href="#").boton Ver mas
         include ../components/footer.pug
